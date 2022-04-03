@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:theme="@style/Theme.HammerSystems_Test_Safin">
+
+    <item
+        android:id="@+id/item_msk"
+        android:title="@string/Moscow"
+        app:theme="@style/Theme.HammerSystems_Test_Safin"
+        android:orderInCategory="1"
+        tools:targetApi="o" />
+
+    <item
+        android:id="@+id/item_smr"
+        android:title="@string/Samara"
+        app:theme="@style/Theme.HammerSystems_Test_Safin"
+        android:orderInCategory="2"
+        tools:targetApi="o" />
+    <item
+        android:id="@+id/item_ivn"
+        android:title="@string/Ivanovo"
+        app:theme="@style/Theme.HammerSystems_Test_Safin"
+        android:orderInCategory="3"
+        tools:targetApi="o" />
+
+</menu>
